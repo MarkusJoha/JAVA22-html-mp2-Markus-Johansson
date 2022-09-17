@@ -1,0 +1,21 @@
+.huvudsidan{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.menu-item{
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-basis: 50px;
+    padding: 2%;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    background-color: lightslategrey;
+    color: black;
+}
+.menu-description{
+    box-sizing: border-box;
+    flex-basis: 2px;
+}
